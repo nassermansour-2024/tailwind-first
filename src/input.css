@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .iconStyle {
+        @apply w-10 rounded-full p-2  -mt-10 mx-auto bg-red-200
+    }
+    .productStyle {
+        @apply bg-white border  border-slate-800 rounded-lg p-6 md:w-1/3
+    }
+}
